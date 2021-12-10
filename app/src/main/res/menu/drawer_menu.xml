@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:orderInCategory="100"
+        android:title="@string/home"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/profile"
+        android:orderInCategory="100"
+        android:title="@string/profile"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/notification"
+        android:orderInCategory="100"
+        android:title="@string/messages"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="@string/search_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/interest"
+        android:orderInCategory="100"
+        android:title="@string/account_interested"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/biodata"
+        android:orderInCategory="100"
+        android:title="BioData"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/profile_visible"
+        android:orderInCategory="100"
+        android:title="Account Deactivate"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about_us"
+        android:orderInCategory="100"
+        android:title="@string/about_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/signout"
+        android:orderInCategory="100"
+        android:title="@string/signout"
+        app:showAsAction="never" />
+</menu>

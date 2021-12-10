@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Samata Bhratru Mandal</string>
+    <string name="app_name_dev1">SamataBhratruMandal Dev</string>
+
+    <string name="plzPay">Please continue to pay one time registration charges for accessing exclusive services for profile matchmaking.</string>
+    <string name="user_email">User Email</string>
+    <string name="old_password">Old Password</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="register">Register</string>
+    <string name="home">Home</string>
+    <string name="messages">Messages</string>
+    <string name="search_profile">Search Profile</string>
+    <string name="account_interested">Account Interested</string>
+    <string name="about_us">About Us</string>
+    <string name="signout">Sign Out</string>
+
+    <string name="user_id">User Id:</string>
+    <string name="candidateid">CandidateId:</string>
+    <string name="candidateType">Candidate Type</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="logged_in_as_free_member">Logged in as Free Member -  </string>
+    <string name="pay_now">Pay Now</string>
+    <string name="check_available_time">Check Available Time</string>
+    <string name="submit">Submit</string>
+    <string name="color">रंग</string>
+    <string name="occupation">नोकरी/ व्यवसाय</string>
+    <string name="qualification">Qualification</string>
+    <string name="unmark">Unmark</string>
+    <string name="invitations">Invite</string>
+    <string name="view_kundli">View Kundli</string>
+    <string name="view_profile">View Profile</string>
+    <string name="profile">Profile</string>
+    <string name="account_bookmark">Account BookMark</string>
+    <string name="profiles_accepted">Profiles Accepted</string>
+    <string name="schedule">Schedule</string>
+    <string name="developed_by_dreamz">Developed By Dreamz</string>
+
+    <string name="loading">Loading...</string>
+    <string name="view_kundali">View Kundali</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="bookmarks">Bookmark</string>
+    <string name="re_invite">Re-Invite</string>
+    <string name="number">मोबाईल</string>
+    <string name="cancel">Cancel</string>
+    <string name="join_meeting">Join Meeting</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <!--  Navigation Drawer menu labels  -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_shortlist">Shortlisted</string>
+    <string name="nav_interest">SignOut</string>
+    <string name="nav_news">News</string>
+    <string name="nav_chats">Notifications</string>
+    <string name="nav_about_us">About SBM</string>
+    <!--  TODO: Remove or change this placeholder text  -->
+    <string name="menu_home">home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_slideshow">Shortlisted</string>
+    <string name="menu_shortlist">Shortlisted</string>
+    <string name="menu_interest">Interest</string>
+    <string name="menu_news">News</string>
+    <string name="menu_chats">Chats</string>
+    <string name="menu_about">AboutUs</string>
+    <!--  TODO: Remove or change this placeholder text  -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="AstrologyAPi">10d2abad49518488668aff3fbdb97bb4</string>
+    <string name="msg_token_fmt">msg_token</string>
+
+    <!--Search screen-->
+    <string name="basic_search">Basic Search</string>
+    <string name="enter_first_name">पहिले नाव</string>
+    <string name="enter_middle_name">वडिलांचे नाव</string>
+    <string name="enter_last_name">आडनाव</string>
+    <string name="varn">वर्ण</string>
+    <string name="birth_year">जन्म वर्ष</string>
+    <string name="bloodgroup">रक्तगट</string>
+
+    <string name="search">Search</string>
+    <string name="reset">Reset</string>
+    <string name="category">Category</string>
+    <string name="height">ऊंची</string>
+    <string name="education">शिक्षण</string>
+    <string name="education_level">शैक्षणिक पातळी</string>
+    <string name="job_location">नोकरीचे ठिकाण (मराठी टाइप करा)</string>
+    <string name="job_location_tv">नोकरीचे ठिकाण</string>
+    <string name="gotra">गोत्र</string>
+    <string name="ocuupation">नोकरी/ व्यवसाय</string>
+    <string name="hometown">मुळगाव (मराठी टाइप करा)</string>
+    <string name="hometown_tv">मुळगाव</string>
+
+    <string name="personal_information">वैयक्तिक माहिती</string>
+    <string name="photo">छायाचित्र</string>
+    <string name="family">कुटुंबाविषयी माहिती</string>
+    <string name="contact">संपर्कासाठी नाव</string>
+    <string name="name">नाव</string>
+    <string name="age">वय</string>
+    <string name="birth_name">जन्म नाव</string>
+    <string name="birth_date">जन्म तारीख</string>
+    <string name="birth_place">जन्म ठिकाण</string>
+    <string name="birth_time">जन्म वेळ</string>
+    <string name="mamkul">मामकुळ</string>
+    <string name="company">"कंपनी"</string>
+    <string name="monthly_income">मासिक उत्पन्न (रु.)</string>
+    <string name="expectations">जोडिदाराविषयी अपेक्षा</string>
+    <string name="brothers">भाऊ</string>
+    <string name="brothersMarried">brothersMarried</string>
+    <string name="married">विवाहित</string>
+    <string name="unmarried">अविवाहित</string>
+    <string name="sisters">बहिण</string>
+    <string name="sistersMarried">sistersMarried</string>
+    <string name="taluka">तालुका</string>
+    <string name="district">जिल्हा</string>
+    <string name="father_guardian_name">वडिलांचे/ पालकाचे नाव</string>
+    <string name="address">पत्ता</string>
+    <string name="address1">पत्ता १</string>
+    <string name="address2">पत्ता २</string>
+    <string name="telephone">संपर्क नं</string>
+    <string name="telephone1">संपर्क नं १</string>
+    <string name="telephone2">संपर्क नं २</string>
+    <string name="mobile">वैयक्तिक मोबाइल नंबर</string>
+    <string name="time_slot">Select time slot</string>
+    <string name="contact_person">संपर्काचे नाव</string>
+    <string name="contact_person1">संपर्काचे नाव १</string>
+    <string name="contact_person2">संपर्काचे नाव २</string>
+
+    <string name="sbm">समता भ्रातृ मंडळ</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name</string>
+</resources>

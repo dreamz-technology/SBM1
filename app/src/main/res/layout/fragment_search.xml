@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:background="@color/maroon">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/search_page_bg"
+                android:orientation="vertical"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/basic_search"
+                    android:textColor="@color/maroon"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/et_fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:hint="@string/first_name"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/kala"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <EditText
+
+                        android:id="@+id/et_mname"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/txt_bg"
+                        android:hint="@string/middle_name"
+                        android:padding="5dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/kala"
+                        android:textSize="15dp" />
+
+                    <EditText
+
+                        android:id="@+id/et_lname"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/txt_bg"
+                        android:hint="@string/last_name"
+                        android:padding="5dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/kala"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Spinner
+
+                        android:id="@+id/sp_category"
+                        style="@style/Widget.AppCompat.Spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/txt_bg" />
+
+                    <Spinner
+
+                        android:id="@+id/sp_educationLevel"
+                        style="@style/Widget.AppCompat.Spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/txt_bg"
+                        android:padding="5dp" />
+
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+
+                    android:id="@+id/btn_basicSearch"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_margin="10dp"
+                    android:background="@color/maroon"
+                    android:text="@string/search"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:text="Advanced Search"
+                    android:textColor="@color/maroon"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/sp_byear"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:padding="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Spinner
+                        android:id="@+id/sp_maxHeight"
+                        style="@style/Widget.AppCompat.Spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/txt_bg"
+                        android:padding="5dp" />
+
+                    <Spinner
+                        android:id="@+id/sp_bloodGroup"
+                        style="@style/Widget.AppCompat.Spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/txt_bg"
+                        android:padding="5dp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/sp_profession"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg" />
+
+                <EditText
+                    android:id="@+id/et_education"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:hint="Education (Type in English)"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/kala"
+                    android:textSize="15dp" />
+                <!--<Spinner
+
+                    android:id="@+id/sp_education"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:padding="5dp" />-->
+
+                <EditText
+                    android:id="@+id/et_education_place"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:hint="@string/job_location"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/kala"
+                    android:textSize="15dp" />
+
+                <!--<Spinner
+                    android:id="@+id/sp_jobLocation"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:padding="5dp" />-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Spinner
+
+                        android:id="@+id/sp_gotra"
+                        style="@style/Widget.AppCompat.Spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/txt_bg"
+                        android:padding="5dp" />
+
+                    <!-- <EditText
+                         android:id="@+id/et_varn"
+                         android:layout_width="0dp"
+                         android:layout_height="40dp"
+                         android:layout_marginHorizontal="2dp"
+                         android:layout_weight="1"
+                         android:background="@drawable/txt_bg"
+                         android:hint="@string/varn"
+                         android:padding="5dp"
+                         android:singleLine="true"
+                         android:textColorHint="@color/kala"
+                         android:textSize="15dp" />-->
+
+                    <Spinner
+                        android:id="@+id/sp_varn"
+                        style="@style/Widget.AppCompat.Spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/txt_bg"
+                        android:padding="5dp" />
+
+
+                </LinearLayout>
+
+                <!--<Spinner
+                    android:id="@+id/sp_mulgav"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:padding="5dp" />-->
+
+                <EditText
+                    android:id="@+id/et_mulgav"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:hint="@string/hometown"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/kala"
+                    android:textSize="15dp" />
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <androidx.appcompat.widget.AppCompatButton
+
+                        android:id="@+id/btn_reset"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+
+                        android:background="#ed1c24"
+                        android:text="@string/reset"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+
+                        android:id="@+id/btn_search"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/maroon"
+                        android:text="@string/search"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/rv_search"
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

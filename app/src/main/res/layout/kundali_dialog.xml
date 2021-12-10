@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_login1"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="12dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Your Matching Score"
+        android:textAlignment="center"
+        android:textColor="@color/gold"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="35dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kundali"
+
+        />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/iv_logo"
+
+        android:text="36 / 36 "
+        android:textAlignment="center"
+        android:textColor="@color/gold"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvScore"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/iv_logo"
+        android:text="*This is an indicative score.\nPlease consult your astrologer for\nperfect match."
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+
+    <TextView
+        android:id="@+id/tv_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_note"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_accept_bg"
+        android:paddingHorizontal="15dp"
+
+        android:paddingVertical="8dp"
+        android:text="Okay"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+
+        />
+
+
+</RelativeLayout>
