@@ -54,12 +54,12 @@
             </intent-filter>
         </activity>
 
-        <!--<meta-data
-            android:name="com.razorpay.ApiKey"
-            android:value="rzp_live_kND3oMuG97Zdwp" />-->
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_test_cH3WhQRnBjyrt3" /> <!-- android:value="rzp_test_cH3WhQRnBjyrt3" /> -->
+            android:value="rzp_live_kND3oMuG97Zdwp" />
+        <!--<meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_cH3WhQRnBjyrt3" />--> <!-- android:value="rzp_test_cH3WhQRnBjyrt3" /> -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/samta_logo" />
@@ -92,6 +92,7 @@
             </intent-filter>
         </service>
     </application>
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

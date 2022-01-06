@@ -44,6 +44,35 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:209066687682:android:e1a33662a0c51036130f5b",
+        "android_client_info": {
+          "package_name": "com.dream.samtaBhratruMandal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209066687682-p67i86ii3aemqtopocm5ha922c9usg1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5cemm_qTCalru-xqsD9f8Yur0UHhNnhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209066687682-p67i86ii3aemqtopocm5ha922c9usg1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:209066687682:android:9d446e4be707982e130f5b",
         "android_client_info": {
           "package_name": "com.dreamz.samataBhratruMandal"
@@ -84,6 +113,43 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.dreamz.samtaBhratruMandal",
+            "certificate_hash": "f7b9a612af2a8f894639eeb7ed35e497115253fa"
+          }
+        },
+        {
+          "client_id": "209066687682-p67i86ii3aemqtopocm5ha922c9usg1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5cemm_qTCalru-xqsD9f8Yur0UHhNnhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209066687682-p67i86ii3aemqtopocm5ha922c9usg1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209066687682:android:ae26e2a701d69e36130f5b",
+        "android_client_info": {
+          "package_name": "com.dreamz.samtaBhratruMandalDev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209066687682-jknic552nm4mjo5395ulbjk3iiffusrs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamz.samtaBhratruMandalDev",
             "certificate_hash": "f7b9a612af2a8f894639eeb7ed35e497115253fa"
           }
         },

@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.dreamz.samtaBhratruMandal.BuildConfig;
 import com.dreamz.samtaBhratruMandal.Models.BannerDTO;
 import com.dreamz.samtaBhratruMandal.R;
 import com.smarteist.autoimageslider.SliderViewAdapter;
@@ -38,7 +39,7 @@ public class SliderAdapterExample extends SliderViewAdapter<SliderAdapterExample
     {
 
         Glide.with(context)
-                .load("https://staging.samatabhratrumandal.com/RestAPI"+sliderItem.get(position).getImageURL())
+                .load(BuildConfig.SHARE_URL +sliderItem.get(position).getImageURL())
                 .optionalCenterCrop()
                 .into(viewHolder.imageViewBackground);
         ///viewHolder.heading.setText(sliderItem.get(position).getHeading());

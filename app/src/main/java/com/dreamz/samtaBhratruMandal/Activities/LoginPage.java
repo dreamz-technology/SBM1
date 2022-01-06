@@ -39,7 +39,7 @@ public class LoginPage extends AppCompatActivity {
     private ShowLoader showLoader;
     StringEntity entity;
     JsonObject jsonObj;
-    private String deviceToken=null;
+    private String deviceToken = null;
 
     UserSessionManager session;
     AsyncHttpClient client = new AsyncHttpClient();
@@ -56,9 +56,13 @@ public class LoginPage extends AppCompatActivity {
         FirebaseMessaging.getInstance().getToken().addOnCompleteListener(new OnCompleteListener<String>() {
             @Override
             public void onComplete(@NonNull Task<String> task) {
-                deviceToken=task.getResult();
-                session.deviceToken(task.getResult());
-                Log.d("token", "Refreshed token: " + task.getResult());
+                try {
+                    deviceToken = task.getResult();
+                    session.deviceToken(task.getResult());
+                    Log.d("token", "Refreshed token: " + task.getResult());
+                } catch (Exception e) {
+                    Log.e("Error", e.toString());
+                }
 
             }
         });
@@ -145,8 +149,8 @@ public class LoginPage extends AppCompatActivity {
                                     intent.putExtra("password", password.getText().toString().trim());
                                 if (!String.valueOf(response.body().getPaymentRequired()).equals(""))
                                     intent.putExtra("charges", String.valueOf(response.body().getPaymentRequired()));
-                                if(response.body().getCandidateId()>0){
-                                    intent.putExtra("CandidateId",response.body().getCandidateId());
+                                if (response.body().getCandidateId() > 0) {
+                                    intent.putExtra("CandidateId", response.body().getCandidateId());
                                 }
 
                                 startActivity(intent);

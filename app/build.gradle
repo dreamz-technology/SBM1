@@ -11,8 +11,8 @@ android {
         applicationId "com.dreamz.samtaBhratruMandal"
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 5
-        versionName "1.2"
+        versionCode 3
+        versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -26,7 +26,6 @@ android {
 
     flavorDimensions "appMode"
     productFlavors {
-        S
         dev {
             dimension "appMode"
             applicationId "com.dreamz.samtaBhratruMandalDev"
@@ -44,12 +43,12 @@ android {
 
         prod {
             dimension "appMode"
-            applicationId "com.dreamz.samtaBhratruMandal"
+            applicationId "com.dream.samtaBhratruMandal"
             manifestPlaceholders = [
                     appName     : "@string/app_name",
                     appIcon     : "@mipmap/ic_launcher_round",
                     roundIcon   : "@mipmap/ic_launcher_round",
-                    aplicationId: "com.dreamz.samtaBhratruMandal"
+                    aplicationId: "com.dream.samtaBhratruMandal"
             ]
             buildConfigField "String", "SERVER_URL", '"https://samatabhratrumandal.com/RestAPI/api/"'
             buildConfigField "String", "IMAGE_SERVER_URL", '"https://samatabhratrumandal.com"'

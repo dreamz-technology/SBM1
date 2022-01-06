@@ -15,18 +15,13 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/maroon">
-
-
-    </FrameLayout>
+        android:background="@color/maroon" />
 
     <include
         android:id="@+id/app_bar_main"
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
@@ -35,10 +30,9 @@
         android:layout_gravity="start"
         android:layout_marginTop="60dp"
         android:background="#6f194b"
-        android:scrollbars="vertical"
-
         android:fitsSystemWindows="true"
         android:gravity="center"
+        android:scrollbars="vertical"
         android:textAlignment="center"
         app:itemTextAppearance="@style/NavDrawerTextStyle"
         app:itemTextColor="#fff"
